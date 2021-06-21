@@ -1,0 +1,146 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(45, 49, 49, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__phrase{
+  margin-top: -47px;
+  
+  padding: 0%;
+  height: 320px;
+  background-image: url(http://4.bp.blogspot.com/-UW1c4JFNrEg/Vf0mw9z5P2I/AAAAAAAAUZo/35k71CTxoKQ/s1600/ccf-cake-pops-pink-white.jpg)
+  
+  
+}
+
+.body__productuno{
+
+
+  background-image: url(https://onlinevegans.com/wp-content/uploads/2020/05/AdobeStock_289529994-816x520-1.jpeg;)
+}
+
+.body__productodos{
+
+  background-image: url(https://4.bp.blogspot.com/-hcPbzeWzAp8/VsrPFKFmK7I/AAAAAAAAAII/iKCOOSvyTVQ/s1600/Icono_Sin_Azucar.png)
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.py-2{
+
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s linear;
+
+}
+
+.py-2:hover{
+  color: cadetblue;
+  text-decoration: none;
+  transform: scale(1.060);
+}
+
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+.logo{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 26px;
+  color: rgb(122, 6, 26);
+}
+
+.instagram{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.instagram:hover{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.nosotros{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nosotros:hover{
+  color: cadetblue;
+  text-decoration: none;
+
+  
+}
+
+.insTa{
+  color: black;
+  text-decoration: none;
+}
+
+.insTa:hover{
+  color:rgb(253, 29, 66);
+  text-decoration: none;
+}
+
+
+.btn{
+  background-color: teal;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: rgb(240, 65, 240);
+}
+
+.d-md-flex{
+
+  margin-top: -30px;
+}
