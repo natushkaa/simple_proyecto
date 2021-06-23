@@ -89,31 +89,31 @@ p{
 }
 
 
-.logo{
+.navbar__logo{
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 26px;
   color: rgb(122, 6, 26);
 }
 
-.instagram{
+.header__instagram{
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
 
 }
 
-.instagram:hover{
+.header__instagram:hover{
   color: cadetblue;
   text-decoration: none;
 }
 
-.nosotros{
+.header__nosotros{
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.nosotros:hover{
+.header__nosotros:hover{
   color: cadetblue;
   text-decoration: none;
 

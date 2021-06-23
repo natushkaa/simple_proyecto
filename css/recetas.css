@@ -1,0 +1,61 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  border-style:dotted;
+  border-color: thistle;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+
+.card-img-top{
+  transition: 0.5s linear;
+}
+
+.card-img-top:hover{
+  transform: scale(1.060);
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: violet;
+  border-color: violet;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: rgb(240, 65, 240);
+}

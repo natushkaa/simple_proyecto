@@ -1,106 +1,5 @@
-div h3 {
-  font: 18px; }
 
-p {
-  color: rgb(5, 5, 5);
-   
-}
-
-.container-1 {
-  width: 320px; }
-
-.container-2 {
-  width: 640px; }
-
-.container-3 {
-  width: 960px; }
-
-.btn--twitter {
-  background-color: #55acee; 
-  color: white
-}
-
-.btn--twitter:hover{
-  text-decoration: none;
-  color: grey;
-}
-
-
-.btn--facebook {
-  background-color: #3a5795; 
-  color: white
-}
-.btn--facebook:hover{
-  text-decoration: none;
-  color: grey;
-}
-
-.btn--instagram {
-  background-color: #C25E30; 
-  color: white
-}
-
-.btn--instagram:hover{
-  text-decoration: none;
-  color: grey;
-}
-
-
-.carousel, .carousel-inner > .carousel-item > img {
-  height: 450px;
-  width: 99%;
-  padding: 1px;
-}
-
-.cajaUno{
-  
-  
-  transition: 0.5s linear;
-}
-.cajaUno:hover{
-  
-  transform: scale(1.060);
-}
-
-.cajaDos{
-  transition: 0.5s linear;
-}
-.cajaDos:hover{
-  
-  transform: scale(1.060);
-}
-.cajaTres{
-  transition: 0.5s linear;
-}
-.cajaTres:hover{
-  
-  transform: scale(1.060);
-}
-
-
-.cajaCuatro{
-  transition: 0.5s linear;
-}
-.cajaCuatro:hover{
-  
-  transform: scale(1.060);
-}
-
-.cajaCinco{
-  transition: 0.5s linear;
-}
-.cajaCinco:hover{
-  
-  transform: scale(1.060);
-}
-.cajaSeis{
-  transition: 0.5s linear;
-}
-.cajaSeis:hover{
-  
-  transform: scale(1.060);
-}
-
+/*Barra de navegacion*/
 .py-2{
 
   text-decoration: none;
@@ -115,6 +14,8 @@ p {
   text-decoration: none;
   transform: scale(1.060);
 }
+
+/*Tipo de letras para cada frase*/
 
 h1{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -132,32 +33,34 @@ p{
   
 }
 
-.logo{
+/*Logo*/
+.navbar__logo{
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 26px;
   color: rgb(122, 6, 26);
 
 }
 
-.instagram{
+/*Modificacion palabras de la hamburguesa*/
+.header__instagram{
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
 
 }
 
-.instagram:hover{
+.header__instagram:hover{
   color: cadetblue;
   text-decoration: none;
 }
 
-.nosotros{
+.header__nosotros{
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.nosotros:hover{
+.header__nosotros:hover{
   color: cadetblue;
   text-decoration: none;
 

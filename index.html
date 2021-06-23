@@ -6,10 +6,15 @@
     <meta name="description" content="Repostería vegana y sugar free">
     <meta name="keyword" content="Sin lacteos, sin huevo, sin azúcar, sin maltrato animal.">
     
-    <title  >  Repostería saludable</title>
+    <title>  Repostería saludable</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/product/">
-    <link rel="stylesheet" href="css/product.css">
+    <!--Enlaces-->
+    <link rel="stylesheet"  href="../assets/dist/css/bootstrap.min.css">
+    <link rel="canonical"   href="https://getbootstrap.com/docs/4.6/examples/product/">
+    <link rel="stylesheet"  href="css/index.css">
+    <link rel="stylesheet"  href="css/estilo.css">
+
+    <!--Estilo de letras-->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400&display=swap');
     </style>
@@ -25,10 +30,9 @@
 
     
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 
-
+    <!--Movil-->
 
     <style>
       .bd-placeholder-img {
@@ -50,7 +54,8 @@
     
     
   </head>
-  <body style="background-color: #ffdce1;">
+  <!--Comienzo de la pagina-->
+  <body style="background-color: #ffdce1;" class="body__navbar">
     <!-- Hamburguesa--->
     <header>
       <div class="collapse " id="navbarHeader" style="background-color: #fa8697;">
@@ -63,9 +68,9 @@
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contacto</h4>
               <ul class="list-unstyled">
-                <li><a href="https://www.instagram.com/veganpasticcerie/?hl=es-la" class="instagram">Nuestro Instagram</a></li>
+                <li><a href="https://www.instagram.com/veganpasticcerie/?hl=es-la" class="header__instagram">Nuestro Instagram</a></li>
                 
-                <li><a href="pages/novedades.html" class="nosotros" >Acerca de nosotros</a></li>
+                <li><a href="pages/novedades.html" class="header__nosotros" >Acerca de nosotros</a></li>
               </ul>
             </div>
           </div>
@@ -78,11 +83,11 @@
             
             <strong class="logo"> <img src="imagenes/flowers.svg" alt="Logo" height="30px">  Simple vegano</strong>
           </a>
-          <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
-          <a class="py-2 d-none d-md-inline-block" href="pages/productos.html">Productos</a>
-          <a class="py-2 d-none d-md-inline-block" href="pages/recetas.html">Recetas</a>
-          <a class="py-2 d-none d-md-inline-block" href="pages/comprar.html">Comprar ON-LINE</a>
-          <a class="py-2 d-none d-md-inline-block" href="pages/novedades.html">¡NOVEDADES!</a>
+          <a class="navbar__home py-2 d-none d-md-inline-block" href="index.html">Home</a>
+          <a class="navbar__productos py-2 d-none d-md-inline-block" href="pages/productos.html">Productos</a>
+          <a class="navbar__recetas py-2 d-none d-md-inline-block" href="pages/recetas.html">Recetas</a>
+          <a class="navbar__comprar py-2 d-none d-md-inline-block" href="pages/comprar.html">Comprar ON-LINE</a>
+          <a class="navbar__novedades py-2 d-none d-md-inline-block" href="pages/novedades.html">¡NOVEDADES!</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -98,9 +103,7 @@
     <p class="lead font-weight-normal">¿Sabías que contamos con productos 100% veganos y sin azúcar? </p>
     <a href="pages/productos.html" class="btn">Ver más</a>
   </div>
-  <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  -->
+  
 </div>
 <!-- Sección vegana--->
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" style="background-color: #f8facc;">
@@ -123,20 +126,21 @@
     <div class="body__productodos" style="width: 90%; height: 300px; border-radius: 21px 21px 21px 21px;"></div>
   </div>
 </div>
-<!-- Footer--->
-<footer class="my-5 pt-5 text-muted text-center text-small" style="background-color: #ffdce1;">
+<!-- Footer y redes sociales--->
+<footer class="footer_redes my-5 pt-5 text-muted text-center text-small" >
   <p class="mb-1">&copy; 2021 Simple vegano</p>
   <ul class="list-inline">
-    <li class="list-inline-item"><a href="https://www.instagram.com/veganpasticcerie/?hl=es-la"> <img src="imagenes/instagram.svg" alt="logo" width="140" height="30" class="insTa"> </a></li>
-    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069836465725"> <img src="imagenes/facebook.svg" alt="" width="130" height="30" class="faceBoo"> </a></li>
-    <li class="list-inline-item"><a href="https://wa.link/212end"> <img src="imagenes/whatsapp.svg" alt="" width="120" height="30" class="whatSa"> </a></li>
+    <li class="list-inline-item"><a href="https://www.instagram.com/veganpasticcerie/?hl=es-la"> <img src="imagenes/instagram.svg" alt="Instagram" width="140" height="30" > </a></li>
+    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069836465725"> <img src="imagenes/facebook.svg" alt="Facebook" width="130" height="30" > </a></li>
+    <li class="list-inline-item"><a href="https://wa.link/212end"> <img src="imagenes/whatsapp.svg" alt="" width="120" height="30" class="Whatsapp"> </a></li>
   </ul>
 </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
+      
+     
       
   </body>
 </html>

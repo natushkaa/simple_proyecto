@@ -1,0 +1,58 @@
+
+/*Carrusel*/
+.carousel, .carousel-inner > .carousel-item > img {
+    height: 450px;
+    width: 100%;
+    padding: 1px;
+
+}
+  /*Animación de las cajas */
+.cajaUno{
+    transition: 0.5s linear;
+}
+
+.cajaUno:hover{
+    transform: scale(1.060);
+}   
+
+
+.cajaDos{
+    transition: 0.5s linear;
+}
+
+.cajaDos:hover{
+    transform: scale(1.060);
+}   
+
+.cajaTres{
+    transition: 0.5s linear;
+}
+
+.cajaTres:hover{
+    transform: scale(1.060);
+}   
+
+
+.cajaCuatro{
+    transition: 0.5s linear;
+}
+
+.cajaCuatro:hover{
+    transform: scale(1.060);
+}   
+
+.cajaCinco{
+    transition: 0.5s linear;
+}
+
+.cajaCinco:hover{
+    transform: scale(1.060);
+}   
+
+.cajaSeis{
+    transition: 0.5s linear;
+}
+
+.cajaSeis:hover{
+    transform: scale(1.060);
+}   
