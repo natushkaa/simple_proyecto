@@ -65,3 +65,58 @@ p{
   text-decoration: none;
 
 }
+
+.header__home{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__home:hover{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.header__productos{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__productos:hover{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.header__recetas{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__recetas:hover{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.header__comprar{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__comprar:hover{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.header__novedades{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__novedades:hover{
+  color: cadetblue;
+  text-decoration: none;
+}

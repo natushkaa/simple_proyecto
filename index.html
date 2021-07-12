@@ -58,41 +58,37 @@
   <body style="background-color: #ffdce1;" class="body__navbar">
     <!-- Hamburguesa--->
     <header>
-      <div class="collapse " id="navbarHeader" style="background-color: #fa8697;">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Sobre nosotros</h4>
-              <p class="text-muted">¡Bienvenidos a nuestra página! Los invitamos a seguirnos en nuestras redes sociales para que estén al tanto de nuestras novedades semanales. Abrazo!</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contacto</h4>
-              <ul class="list-unstyled">
-                <li><a href="https://www.instagram.com/veganpasticcerie/?hl=es-la" class="header__instagram">Nuestro Instagram</a></li>
-                
-                <li><a href="pages/novedades.html" class="header__nosotros" >Acerca de nosotros</a></li>
-              </ul>
-            </div>
-          </div>
+      <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #fa8697;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+          <strong class="navbar__logo"><img src="imagenes/flowers.svg" alt="Logo" height="30px">Simple vegano</strong>
+        </a>
+        
+        <!-- enlaces -->
+        <div class="collapse navbar-collapse " id="opciones">   
+          <ul class="navbar-nav container d-flex justify-content-between">
+            <li class="nav-item">
+              <a class="header__home " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__productos" href="pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__recetas" href="pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__comprar" href="pages/comprar.html">Comprar</a>
+            </li>     
+            <li class="nav-item">
+              <a class="header__novedades" href="pages/novedades.html">Novedades</a>
+            </li>        
+          </ul>
         </div>
-      </div>
-      <!-- Barra de navegación--->
-      <div class="navbar navbar-light" style="background-color: #ffcad1;">
-        <div class="container d-flex justify-content-between">
-          <a href="../index.html" class="navbar-brand d-flex align-items-center">
-            
-            <strong class="logo"> <img src="imagenes/flowers.svg" alt="Logo" height="30px">  Simple vegano</strong>
-          </a>
-          <a class="navbar__home py-2 d-none d-md-inline-block" href="index.html">Home</a>
-          <a class="navbar__productos py-2 d-none d-md-inline-block" href="pages/productos.html">Productos</a>
-          <a class="navbar__recetas py-2 d-none d-md-inline-block" href="pages/recetas.html">Recetas</a>
-          <a class="navbar__comprar py-2 d-none d-md-inline-block" href="pages/comprar.html">Comprar ON-LINE</a>
-          <a class="navbar__novedades py-2 d-none d-md-inline-block" href="pages/novedades.html">¡NOVEDADES!</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
+      </nav>
     </header>
 
 
